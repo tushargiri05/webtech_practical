@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>FIND MAXIMUM OF THREE NUMBERS</h1>
+        <script>
+            function max(){
+                let a=parseInt(prompt("Enter first number: "));
+                let b=parseInt(prompt("Enter second number: "));
+                let c=parseInt(prompt("Enter third number: "));
+                
+                if (a>=b && a>=c){
+                    document.write(a + " is the maximum number among " + a + ", " + b + ", and " + c + ".");
+                }
+                else if (b>=a && b>=c){
+                    document.write(b + " is the maximum number among " + a + ", " + b + ", and " + c + ".");
+                }
+                else{
+                    document.write(c + " is the maximum number among " + a + ", " + b + ", and " + c + ".");
+                }
+            }
+            max();
+        </script>
+    </body>
+</html>

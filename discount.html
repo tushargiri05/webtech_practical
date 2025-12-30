@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let amountPrice= parseFloat(prompt("Enter the total amount: "));
+            let discount= 0;
+            if (amountPrice >= 100){
+                document.write("Discount given is 20% <br> ")
+                discount= amountPrice * 0.20;
+                document.write("Your total amount is:" + discount);
+            }
+            else if(amountPrice >= 50 && amountPrice < 100){
+                document.write("Discount given is 10%")
+                discount= amountPrice * 0.10;
+                document.write("Your total amount is:" + discount);
+            }
+            else {
+                document.write("Discount given is 0")
+                document.write("Your total amount is:" + amountPrice);
+            }
+        </script>
+    </body>
+</html>
